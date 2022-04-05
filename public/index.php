@@ -6,4 +6,4 @@ use codePHP\Http\Controllers\HomeControllers;
 $request = Request::capture();
 $controller = new HomeControllers();
 
-echo $controller->index($request);
+$controller->index($request);
